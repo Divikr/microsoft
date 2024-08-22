@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: 0;
+}
+.topnav{
+    padding: 0.99rem;
+    padding-bottom: 0;
+    font-size: small;
+}
+#menu{
+    position: relative;
+    right: 12rem;
+    gap: 1.5rem;
+}
+.microimg{
+    position: relative;
+    left: -8em;
+}
+.addicon{
+    position: relative;
+    bottom: 0.3rem;
+}
+.imgpara1{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 3rem;
+    left: 4rem;
+    width: 60ch;
+    
+
+}
+.imgpara2{
+    position: absolute;
+    top: 5rem;
+    left:7rem ;
+    width: 50ch;
+}
+.imgpara3{
+    position: absolute;
+    top: 96rem;
+    left: 8rem;
+    width:50ch;
+}
+#imgpara1,#imgpara2{
+    padding: 2rem;
+}
+.icons{
+    gap:1.5rem;
+}
+
+.footh4{
+    font-size: medium;
+    color: #616161;
+}
+.footpara1,.footpara2{
+    font-size:0.7rem;
+ 
+}
+.new
+{
+    background-color: #FFB900;
+    width: 15%;
+    padding: 0.2rem;
+    padding-left: 0.7rem;
+    font-weight: 550;
+}
+.title{
+    font-size: 1.9rem;
+    
+}
+.microicon1{
+    position: relative;
+    left: 2.8rem;
+}
+.microicon2{
+    position: relative;
+    left: 3rem;
+}
+.surf{
+    position: relative;
+    left: 6rem;
+}
+.micropr1,.micropr2,.xboxpr,.surfpr{
+    color: #0067BB;
+    font-weight: 550;
+    padding-top: 0.8rem;
+}
+.micropr1{
+    position: relative;
+    right: 2rem;
+}
+.xboxpr{
+    position: relative;
+    right: 0.9rem;
+}
+.micropr2{
+    position: relative;
+    left: 0.8rem;
+}
+.surfpr{
+    position: relative;
+    left:2.5rem ;
+}
+.title1,.title2,.title3,.title4{
+    font-size: 1.5rem;
+    width: 17ch;
+    padding-top: 1.5rem;
+    padding-bottom: 1.2rem;
+    padding-left: 0.5rem;
+}
+.cardpr1,.cardpr2,.cardpr3,.cardpr4,.cardpr5,.cardpr6,.cardpr7,.cardpr8{
+    width: 29ch;
+    padding-left: 0.5rem;
+}
+.title5,.title6,.title7,.title8{
+    font-size: 1.5rem;
+    width: 20ch;
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+}
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8{
+    box-shadow: 0 .1875rem .4375rem 0 rgba(0, 0, 0, .13), 0 .0625rem .125rem 0 rgba(0, 0, 0, .11);
+}
+.maintitle{
+    font-size: 1.7rem;
+    width: 15ch;
+    padding-bottom: 0.4rem;
+}
+.mainpr{
+width: 30ch;
+}
+#shop-btn{
+    margin-top: 5rem;
+    border-radius: 0.15rem;
+    font-size: medium;
+    font-weight: 550;
+}
+#learn-btn{
+    margin-top: 2rem;
+    border-radius: 0.15rem;
+    font-size: medium;
+    font-weight: 550;
+}
+#explore-btn{
+    font-size: medium;
+    margin-top: 4rem;
+    border-radius: 0.15rem;
+    font-weight: 550;
+}
+#download-btn{
+    width: 85%;
+  font-size: small;
+   text-align: start;
+   border-radius: 0.15rem;
+}
+#for-btn{
+    margin-top: 0.5rem;
+    border-radius: 0.15rem;
+}
+#join-btn{
+    margin-top: 5.6rem;
+    border-radius: 0.15rem;
+}
+#x-btn{
+    margin-top: 10.4rem;
+    border-radius: 0.15rem;
+}
+#try-btn{
+    margin-top: 3.22rem;
+    border-radius: 0.15rem;
+}
+.for{
+    margin-top: 1.1rem;
+    color: #0067BB;
+    font-weight: 550;
+}
+#copilot{
+    width: 70%;
+    border-radius: 0.15rem;
+    font-weight: 550;
+}
+
+#learn1{
+    border-radius: 1px;
+}
+#learn2{
+    border-radius: 1px;
+}
+#last{
+    background-color: #F2F2F2;
+}
+.footer{
+    background-color: #F2F2F2;
+    padding: 3rem;
+    padding-top: 2rem;
+    margin-top: 5rem;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 0.3rem;
+    box-sizing: border-box;
+
+}
+.foot p{
+    font-size: 0.7rem;
+    line-height: 1.7rem;
+    color: #616161;
+}
+.footpara{
+    color: #616161;
+}
+.icons{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+ul{
+    list-style: none;
+}
+.components{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  .components i{
+    font-size: 50px;
+  }
+  .components a{
+    font-size: 0.95rem;
+    
+  }
+  #dp li{
+   width: 950px;
+    border-top: 1px solid #f2f2f2;
+  }
+@media(max-width:1200px){
+    .imgpara3,.imgpara1,.imgpara2{
+        position: relative;
+        top:-2rem;
+        left: 0.5rem;
+        width:98%;
+        box-shadow: 0 .1875rem .4375rem 0 rgba(0, 0, 0, .17), 0 .0625rem .125rem 0 rgba(0, 0, 0, .16);
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+        
+    }
+    .microimg{
+        position: relative;
+        left: 0.5rem;
+    }
+    #menu{
+        position: relative;
+        left: 0.7rem;
+    }
+    .new{
+        width: 7%;
+    }
+    .imgpara2{
+        padding: 2rem;
+    }
+    #copilot{
+        width: 25%;
+        text-align: start;
+        
+    }
+    #imgpara3{
+        padding: 2rem;
+    }
+    .imgpara3 p{
+        padding-left: 2rem;
+width: 100%;
+    }
+    .imgpara3 h5{
+        padding-left: 2rem;
+        width: 90%;
+            }
+            .imgpara3 a{
+               margin-left: 2rem;
+            }
+         
+}
+@media(min-width:950px){
+    #menubar,#searchicon2{
+        display: none;
+    }
+}
+@media(max-width:950px){
+   #menu,#allmicro,#last{
+    display: none;
+   }
+   #searchicon{
+   display: none;
+   }
+   #searchicon2{
+    position: absolute;
+    left: 4rem;
+    top: 1.1rem;
+
+   }
+   #menubar{
+    position: relative;
+    bottom: 0.3rem;
+   }
+}
+@media(max-width:800px){
+    #imgpara1,#imgpara2,#imgpara3{
+    font-size: small;
+    position: relative;
+ top: 0;
+  
+    }
+
+}
+@media(max-width:450px){
+    
+    #imgpara1,#imgpara2,#imgpara3{
+    position: relative;
+ top: 0;
+ margin-left: 0%;
+ width: 100%;
+ 
+    }
+    #imgpara3 p{
+        font-size:x-small;
+        margin-left: -2rem;
+    }
+    #imgpara3{
+       width: 100%;
+    }
+    #imgpara3 h5{
+       font-size:small;
+       width: 30ch;
+       margin-left: -2rem;
+       
+            }
+            #imgpara3 a{
+              font-size:x-small ;
+              width: 25ch;
+              margin-left: 0;
+            }
+     #imgpara1 p{
+        font-size: x-small;
+     }
+     #imgpara1 h5{
+        font-size: small;
+     }
+     #imgpara1 a{
+        font-size: x-small;
+     }
+     #imgpaara1{
+        padding: 0;
+     }
+     #imgpara2 p{
+        font-size: x-small;
+     }
+     #imgpara2 h5{
+        font-size: small;
+     }
+     #imgpara2 a{
+        font-size: x-small;
+     }
+     #imgpaara2{
+        padding: 0;
+     }
+     #new1,#new2{
+        font-size: small;
+        width:12% ;
+     }
+     .microimg{
+        position: relative;
+        left: 0.5rem;
+     }
+}
+@media(max-width:360px)
+{
+    #new1,#new2{
+        width: 17%;
+    }
+    #searchicon2{
+        position:absolute;
+        
+       }
+       #cart{
+        position: relative;
+        left: 1.9rem;
+       }
+       #add{
+        position: relative;
+        left: 1.9rem;
+       }
+       #follow{
+        position:relative ;
+        left: -2rem;
+    
+       }
+       #fb,#twit{
+        position: relative;
+        right: 1.5rem;
+        padding-left: 0%;
+        margin-left: 0%;
+       }
+     
+    #youtube{
+     position:relative;
+     left: 2rem;
+    }
+    .microimg{
+        position: relative;
+        left: 2rem;
+    }
+}
